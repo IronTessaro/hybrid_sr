@@ -389,11 +389,6 @@ def train_models(X_train, y_train, X_test, y_test, output_dir, kfolds=2, repeats
         # clf = Pipeline(steps=[("scaler", StandardScaler()), (models[k])])
         clf = Pipeline(steps=[(models[k])])
         param_grid = param_grids[k]
-
-        # random_search = RandomizedSearchCV(clf,verbose=10,scoring="neg_mean_squared_error",
-        #                                  param_distributions=param_grid,n_iter=n_search,n_jobs=-1,
-        #                                  cv=rkf,random_state=0)
-
         random_search = optuna.integration.OptunaSearchCV(clf, verbose=200, scoring=score,
                                                           param_distributions=param_grid, n_trials=n_search, n_jobs=1,
                                                           refit=True, random_state=0, timeout=None)

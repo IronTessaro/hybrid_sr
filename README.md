@@ -4,7 +4,7 @@ The Hybrid Symbolic Regression (HSR) integrates symbolic regression via RILS-ROL
 
 <h2>Data</h2>
 
-The datasets are located in the **data** folder and are fully described in **Section 2. Case study** of [this paper](https://doi.org/10.1016/j.energy.2025.136027)
+The datasets are located in the **data** folder and are fully described in **Section 2. Case study** from our paper [Peak in-cylinder pressure virtual sensor based on hybrid modeling framework](https://doi.org/10.1016/j.energy.2025.136027)
 
 <h2>Citation</h2>
 

@@ -2,6 +2,10 @@
 
 The Hybrid Symbolic Regression (HSR) integrates symbolic regression via RILS-ROLS with residual modeling using multiple black-box regressors to form a hybrid modeling framework that enhances predictive accuracy and interpretability, with performance evaluated across stratified subsets of the target variable, proposed by Iron Tessaro, Helon Vicente Hultmann Ayala, Viviana Cocco Mariani, and Leandro dos Santos Coelho (2025).
 
+<h2>Data</h2>
+
+The datasets are located in the **data** folder and are fully described in **Section 2. Case study** of [this paper](https://doi.org/10.1016/j.energy.2025.136027)
+
 <h2>Citation</h2>
 
 I. Tessaro, H. V. Hultmann Ayala, V. Cocco Mariani, L. dos Santos Coelho, Peak in-cylinder pressure virtual sensor based on hybrid modeling framework, Energy 326 (2025) 136027. doi:https://doi.org/10.1016/j.energy.2025.136027.
